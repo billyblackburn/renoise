@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=7
-inherit desktop xdm 
+inherit desktop xdg
 
 DESCRIPTION="Complete DAW using a tracker-based approach"
 HOMEPAGE="http://www.renoise.com/"
