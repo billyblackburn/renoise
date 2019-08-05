@@ -1,3 +1,7 @@
+# Updated from https://github.com/causes-/causelay/blob/master/media-sound/renoise/renoise-3.0.1.ebuild
+# 2019
+
+
 # Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
