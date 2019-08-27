@@ -10,12 +10,14 @@ HOMEPAGE="http://www.renoise.com/"
 
 MY_ARCH=${ARCH/amd64/x86_64}
 MY_PV=${PV//./_}
-SRC_URI="amd64? ( rns_${MY_PV}_linux_x86_64.tar.gz )"
+# SRC_URI="amd64? ( rns_${MY_PV}_linux_x86_64.tar.gz )"
+SRC_URI="rns_${MY_PV}_linux_x86_64.tar.gz" 
 S="${WORKDIR}/rns_${MY_PV}_linux_${MY_ARCH}"
 
 LICENSE="renoise"
 SLOT="0"
-KEYWORDS="-* ~x86 ~amd64"
+# KEYWORDS="-* ~x86 ~amd64"
+KEYWORDS="-* ~amd64"
 RESTRICT="fetch strip"
 
 DEPEND=""
