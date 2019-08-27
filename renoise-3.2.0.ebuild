@@ -10,7 +10,7 @@ HOMEPAGE="http://www.renoise.com/"
 
 MY_ARCH=${ARCH/amd64/x86_64}
 MY_PV=${PV//./_}
-SRC_URI="rns_${MY_PV}_linux_${MY_ARCH}.tar.gz"
+SRC_URI="amd64? ( rns_${MY_PV}_linux_x86_64.tar.gz )"
 S="${WORKDIR}/rns_${MY_PV}_linux_${MY_ARCH}"
 
 LICENSE="renoise"
